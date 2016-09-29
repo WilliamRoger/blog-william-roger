@@ -1,0 +1,49 @@
+/******************* HEADER *****************/
+
+.header {
+  width: 100%;
+  background: url("../assets/images/bg-header.jpg") no-repeat;
+  height: 130px;
+}
+.header-logo img {
+  width: 220px;
+  height: 66px;
+  margin-top: 32px;
+}
+.header-nav ul {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.header-nav ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 35px;
+}
+.header-nav li:last-child {
+    margin-right: 0;
+}
+.header-nav a, .redes-sociais a {
+  color: #264f6e;
+  transition: all .5s ease;
+}
+.header-nav a:hover, .redes-sociais a:hover {
+  color: #fff;
+}
+.header-nav .menu-ativo {
+  color: #fff;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #e91f42;
+}
+.redes-sociais {
+  float: right;
+  margin-top: 50px;
+}
+.redes-sociais ul li {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 15px;
+}
+.redes-sociais li:last-child {
+  margin-right: 0;
+}
