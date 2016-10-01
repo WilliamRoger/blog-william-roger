@@ -1,0 +1,57 @@
+/******************* POSTS *****************/
+
+.post-header {
+  padding-bottom: 20px;
+}
+.post-header, .post-content {
+  padding-right: 130px;
+  padding-left: 130px;
+}
+.post-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #e91f42;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+.post-sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #264f6e;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+}
+.post-date {
+  text-align: center;
+}
+.post-date, .post-content p {
+  color: #264f6e;
+  font-weight: 300;
+  line-height: 30px;
+}
+.post-content ul li {
+  font-weight: 400;
+  color: #264f6e;
+  line-height: 28px;
+}
+.post-content {
+  padding-bottom: 30px;
+}
+.link {
+  font-weight: bold;
+  color: #0a263b;
+}
+.link:hover {
+  padding-bottom: 2px;
+  border-bottom: 3px solid #e91f42;
+}
+.img-post {
+  width: 100%;
+  padding: 10px 0;
+}
+#disqus_thread {
+  padding-top: 20px;
+}

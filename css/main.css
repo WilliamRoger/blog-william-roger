@@ -2,3 +2,28 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+img {
+  max-width: 100%;
+}
+/* apresentação */
+.page-content {
+  padding-top: 160px;
+}
+
+.btn-post {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #264f6e;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 45px;
+  border: 3.8px solid #264f6e;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: all .3s ease;
+}
+.btn-post:hover {
+  color: #e91f42;
+  border-color: #e91f42;
+}
