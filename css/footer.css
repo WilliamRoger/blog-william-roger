@@ -13,3 +13,6 @@
   position: relative;
   top: 10px;
 }
+.footer img:hover {
+  opacity: 0.5;
+}

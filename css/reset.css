@@ -4,15 +4,17 @@
 
 /**
  * Remove anchor tex-decoration
- */ 
+ */
 
 a {
 	text-decoration: none;
 }
-
+a:hover {
+	cursor: pointer;
+}
 /**
  * Remove list-style
- */ 
+ */
 
 ol, ul {
 	list-style: none;

@@ -52,6 +52,25 @@
   width: 100%;
   padding: 10px 0;
 }
+.btn-back {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width:270px;
+  padding: 10px 0;
+  background-color: #264f6e;
+  border: 3.8px solid #264f6e;
+  border-radius: 10px;
+  transition: all .3s ease;
+  margin: 100px auto 60px auto;
+}
+.btn-back:hover {
+  color: #264f6e;
+  background: none;
+}
 #disqus_thread {
   padding-top: 20px;
 }

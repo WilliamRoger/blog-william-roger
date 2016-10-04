@@ -16,8 +16,9 @@ img {
   text-transform: uppercase;
   color: #264f6e;
   text-align: center;
-  display: inline-block;
-  padding: 10px 40px;
+  display: block;
+  width: 170px;
+  padding: 10px 0;
   border: 3.8px solid #264f6e;
   border-radius: 10px;
   margin-top: 20px;

@@ -1,0 +1,225 @@
+.about-me, .skills-wrapper {
+  padding: 0 130px;
+}
+.about-me-foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url(../assets/images/foto_william_roger.jpg);
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.about-me h1, .skills-wrapper h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e91f42;
+  text-align: center;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+.about-me p {
+  color: #264f6e;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+/****************** Skills *****************/
+
+.skills {
+  float: left;
+  clear: right;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.skillsTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #264f6e;
+  letter-spacing: -1px;
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.progress {
+  background-color: #e9e5e2;
+  height: 25px;
+  box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0px #fcfcfc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.progress-bar {
+  background-image: linear-gradient(to right, #264f6e 0%, #e91f42 100%);
+  height: 100%;
+  border-radius: 6px;
+  animation-duration: 3s;
+  position: relative;
+}
+.html {
+  width: 65%;
+  animation-name: html-width;
+}
+.css {
+  width: 60%;
+  animation-name: css-width;
+}
+.sass {
+  width: 35%;
+  animation-name: sass-width;
+}
+.javascript {
+  width: 45%;
+  animation-name: javascript-width;
+}
+.php {
+  width: 15%;
+  animation-name: php-width;
+}
+.design {
+  width: 60%;
+  animation-name: design-width;
+}
+.git {
+  width: 50%;
+  animation-name: git-width;
+}
+.seo {
+  width: 20%;
+  animation-name: seo-width;
+}
+
+/* ANIMATIONS HTML */
+@keyframes html-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+/* ANIMATIONS CSS */
+@keyframes css-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+/* ANIMATIONS SASS */
+@keyframes sass-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+/* ANIMATIONS JAVASCRIPT */
+@keyframes javascript-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+/* ANIMATIONS PHP */
+@keyframes php-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15%;
+  }
+}
+/* ANIMATIONS DESIGN RESPONSIVO */
+@keyframes design-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+/* ANIMATIONS GIT E GITHUB */
+@keyframes git-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+/* ANIMATIONS SEO */
+@keyframes seo-width {
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+/* Tools List */
+.tools-list li {
+  display: inline-block;
+  margin-right: 133px;
+}
+.tools-list li:last-child {
+  margin-right: 0;
+}
+.tools-list li:hover {
+  opacity: 0.5;
+}
+.tools-list {
+  margin-bottom: 40px;
+}
+/* Botão Curriculum Vitae */
+.btn-curriculum {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width:270px;
+  padding: 10px 0;
+  background-color: #264f6e;
+  border: 3.8px solid #264f6e;
+  border-radius: 10px;
+  transition: all .3s ease;
+  margin: 100px auto 60px auto;
+}
+.btn-curriculum:hover {
+  color: #264f6e;
+  background: none;
+}
