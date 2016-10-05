@@ -41,8 +41,8 @@
   padding-bottom: 30px;
 }
 .link {
-  font-weight: bold;
-  color: #0a263b;
+  color:  #e91f42;
+  font-weight: 400;
 }
 .link:hover {
   padding-bottom: 2px;
@@ -59,7 +59,7 @@
   color: #fff;
   text-align: center;
   display: block;
-  width:270px;
+  width: 150px;
   padding: 10px 0;
   background-color: #264f6e;
   border: 3.8px solid #264f6e;
