@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 }
 
-.about-me h1, .skills-wrapper h2 {
+.title {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;

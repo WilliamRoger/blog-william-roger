@@ -3,28 +3,10 @@ layout: default
 ---
 <article class="portfolio container">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div>
+  <div class="port-content">
     {{ content }}
   </div>
 
-  <form action="" method="get" name="form" class="contato">
-    <fieldset class="grid-7">
-      <label for="nome">Nome</label>
-      <input id="nome" name="nome" type="text" required>
-      <label for="email">E-mail</label>
-      <input id="email" name="email" type="text" required>
-      <label for="fone">Telefone</label>
-      <input id="fone" name="fone" type="tel" required>
-    </fieldset>
-    <fieldset class="form-message grid-7">
-      <label for="mensagem">Menssagem</label>
-      <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-      <button type="button" class="btn-submit">Enviar</button>
-    </fieldset>
-  </form>
+
 
 </article>
