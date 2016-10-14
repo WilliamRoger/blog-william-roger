@@ -20,11 +20,41 @@
   letter-spacing: -2px;
   margin-bottom: 30px;
 }
-.about-me p {
+.sub-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #264f6e;
+  text-align: center;
+  letter-spacing: -2px;
+  margin-bottom: 5px;
+  clear: both;
+}
+.sub-title-modal {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e91f42;
+  text-align: left;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  clear: both;
+}
+.list-modal {
+  text-transform: uppercase;
+  width: 100%;
+}
+p {
   color: #264f6e;
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 30px;
+}
+.center {
+  text-align: center;
+  text-transform: uppercase;
 }
 /****************** Skills *****************/
 
