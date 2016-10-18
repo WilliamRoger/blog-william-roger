@@ -8,9 +8,9 @@
 # Site settings
 title: William Roger
 email: williamroger.frontend@gmail.com
-description:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+description: "Blog William Roger Desenvolvedor Front-end"
+baseurl: "" 
+url: "http://williamroger.com.br"
 twitter_username: William_Roger
 github_username:  WilliamRoger
 

@@ -32,13 +32,13 @@
   font-weight: 300;
   line-height: 30px;
 }
+.post-content p {
+  margin-bottom: 30px;
+}
 .post-content ul li {
   font-weight: 400;
   color: #264f6e;
   line-height: 28px;
-}
-.post-content {
-  padding-bottom: 30px;
 }
 .link {
   color:  #e91f42;
@@ -50,7 +50,7 @@
 }
 .img-post {
   width: 100%;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 .btn-back {
   font-family: 'Montserrat', sans-serif;

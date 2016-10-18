@@ -46,7 +46,7 @@
   text-transform: uppercase;
   width: 100%;
 }
-p {
+.about-me p {
   color: #264f6e;
   font-weight: 300;
   line-height: 30px;
